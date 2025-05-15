@@ -54,7 +54,6 @@ export default function Home() {
       {/* 💻 Main Content */}
       <div className="relative z-10 flex flex-col items-center text-center px-4 py-16 md:py-24">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-2 drop-shadow-lg">AntigoonBot</h1>
-        <LiveStatsCard />
         <section className="mt-16 max-w-4xl space-y-6">
           <h2 className="text-2xl md:text-3xl font-semibold">Started as a hobby, now protecting communities.</h2>
           <p className="text-gray-300">
