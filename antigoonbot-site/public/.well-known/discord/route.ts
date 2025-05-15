@@ -1,4 +1,4 @@
-// pages/.well-known/discord.ts
+import { NextResponse } from "next/server";
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
