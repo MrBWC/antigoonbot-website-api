@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev --turbopack\" \"node server.js\"",
-    "build": "next build",
-    "start": "concurrently \"next start\" \"node server.js\"",
+  "build": "next build",
+  "start": "node server.js",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
