@@ -1,0 +1,33 @@
+.stars, .stars2, .stars3 {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+.stars {
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+  animation: moveStars 100s linear infinite;
+  opacity: 0.4;
+}
+
+.stars2 {
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+  animation: moveStars 150s linear infinite;
+  opacity: 0.2;
+}
+
+.stars3 {
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+  animation: moveStars 250s linear infinite;
+  opacity: 0.1;
+}
+
+@keyframes moveStars {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-1000px); }
+}
