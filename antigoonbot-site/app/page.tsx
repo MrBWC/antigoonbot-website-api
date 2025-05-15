@@ -69,7 +69,7 @@ export default function Home() {
           </div>
 
           <a
-            href="#"
+            href="https://discord.com/oauth2/authorize?client_id=1367938448295596113&permissions=2052&integration_type=0&scope=bot"
             className="inline-block mt-10 px-6 py-3 bg-indigo-500 hover:bg-indigo-600 text-white rounded-full font-medium transition"
           >
             Invite AntigoonBot
