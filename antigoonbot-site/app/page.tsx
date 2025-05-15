@@ -73,12 +73,14 @@ export default function Home() {
           >
             Invite AntigoonBot
           </a>
+          <a> -- </a>
           <a
             href="https://antigoonbot.vercel.app/dc"
             className="inline-block mt-10 px-6 py-3 bg-indigo-500 hover:bg-indigo-600 text-white rounded-full font-medium transition"
           >
             AntigoonBot Discord
           </a>
+          <a> -- </a>
           <a
             href="https://antigoonbot.vercel.app/github"
             className="inline-block mt-10 px-6 py-3 bg-indigo-500 hover:bg-indigo-600 text-white rounded-full font-medium transition"
