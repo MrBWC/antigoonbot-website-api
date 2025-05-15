@@ -55,7 +55,7 @@ export default function Home() {
       <div className="relative z-10 flex flex-col items-center text-center px-4 py-16 md:py-24">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-2 drop-shadow-lg">AntigoonBot</h1>
         <section className="mt-16 max-w-4xl space-y-6">
-          <h2 className="text-2xl md:text-3xl font-semibold">Started as a hobby, now protecting communities.</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold">Started as a hobby, now protecting communities From Gooners.</h2>
           <p className="text-gray-300">
             AntigoonBot began as a weekend project to help moderate small Discord servers and grew into a full security tool used by
             multiple communities to detect and ban Gooners.
